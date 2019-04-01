@@ -1,1 +1,1 @@
-# sample-js-widget
+# Flexipay-js-widget

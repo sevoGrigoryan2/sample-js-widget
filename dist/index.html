@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>TEST</title>
+</head>
+<body>
+    <script>
+        (function (w,d,s,o,f,js,fjs) {
+            w['Flexipay-Widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'flexipay', './widget.js'));
+        flexipay('init', { someConfiguration: 42 });
+        flexipay('message', 'Hello world!');
+    </script>
+</body>
+</html>
